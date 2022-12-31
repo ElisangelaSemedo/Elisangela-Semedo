@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Poppins:wght@100;200;300;400;600;700&family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,400&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link href=../Images/favicon/apple-touch-icon.png rel=apple-touch-icon sizes=180x180>
+    <link href=../Images/favicon/favicon-32x32.png rel=icon sizes=32x32 type=image/png>
+    <link href=../Images/favicon/favicon-16x16.png rel=icon sizes=16x16 type=image/png>
+    <link href=../Images/favicon/site.webmanifest rel=manifest>
+    <link href=../Images/favicon/safari-pinned-tab.svg rel=mask-icon color=#5bbad5>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/bootstrap-grid.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Elisângela Semedo - Web Developer - Home</title>
+  </head>
+
+  <body>
+
+    <div class="eli-trigger-topbar"></div>
+    <div class="border-top-left"></div>
+    <div class="border-bottom-right"></div>
+
+    <div class="eli-preloader">
+      <div class="eli-preloader-inner">
+        <img
+          src="Images/logo-bg-black.png"
+          alt=""
+          class="eli-preloader-img"
+        />
+      </div>
+      -
+    </div>
+
+    <div class="eli-overlay eli-toggle-modal"></div>
+    <div class="eli-menu-overlay eli-toggle-menu"></div>
+
+    <div class="eli-modal eli-bg-black" id="eli-modal-budget">
+      <div class="eli-modal-header eli-mar-bottom-15">
+        <h1 class="eli-title eli-text-purple">Contact me</h1>
+
+        <button class="eli-close-modal eli-toggle-modal">X</button>
+      </div>
+
+      <div class="eli-modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="eli-text-light eli-mar-top-15">
+              Please enter the details below and I will contact you as soon as
+              possible.
+            </p>
+          </div>
+        </div>
+        <div class="row eli-mar-top-15">
+          <div class="col-sm-12">
+            <form class="eli-form" action="">
+              <div class="row">
+                <div class="col-sm-12 col-md-6">
+                  <label for="Full Name" class="eli-text-light"
+                    >Full Name</label
+                  >
+                  <input
+                    type="text"
+                    name="Full Name"
+                    id="eli-fullName"
+                    class="eli-field"
+                  />
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <label for="Email" class="eli-text-light">Email</label>
+                  <input
+                    type="email"
+                    name="Email"
+                    id="eli-email"
+                    class="eli-field"
+                  />
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <label for="Telephone" class="eli-text-light"
+                    >Telephone Number</label
+                  >
+                  <input
+                    type="tel"
+                    name="Telephone"
+                    id="eli-phone"
+                    class="eli-field"
+                  />
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <label for="Site" class="eli-text-light">WebSite</label>
+                  <input
+                    type="text"
+                    name="Site"
+                    id="eli-site"
+                    class="eli-field"
+                  />
+                </div>
+                <div class="col-sm-12 col-md-12 eli-mar-top-15">
+                  <label for="Message" class="eli-text-light"
+                    >Write your message here:</label
+                  >
+                  <textarea
+                    name="Message"
+                    id="eli-message"
+                    rows="8"
+                    class="eli-textarea"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="row justify-content-end eli-mar-top-15">
+                <div class="col-sm-12 col-md-6">
+                  <button
+                    class="eli-btn eli-btn-large eli-btn-purple eli-btn-block"
+                  >
+                    Send
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="eli-topbar">
+      <div class="eli-logo eli-logo-big">
+        <img
+          src="images/logo-bg-white.png"
+          alt="Logo Elisângela Semedo Designer"
+        />
+      </div>
+
+      <nav class="eli-menu">
+        <a href="#">Home</a>
+        <a href="pages/portfolio.html">Portfolio</a>
+        <a href="./pages/about.html">About</a>
+      </nav>
+    </header>
+
+    <button class="eli-btn-menu-mobile eli-toggle-menu">
+      <ion-icon name="menu-outline"></ion-icon>
+    </button>
+
+    <nav class="eli-menu-mobile eli-menu-is-closed">
+      <a href="#">Home</a>
+      <a href="pages/portfolio.html">Portfolio</a>
+      <a href="./pages/about.html">About</a>
+    </nav>
+
+    <div class="eli-contact-info eli-bg-black eli-text-light">
+      <div class="eli-contact-info-inner">
+        <h2 class="eli-title eli-text-purple eli-mar-bottom-15">Contact</h2>
+        <p>elisangela.semedo@gmail.com</p>
+        <p>+352 661 258 286</p>
+        <div class="eli-social-links eli-pad-left-15">
+          <a href="https://www.linkedin.com/in/elis%C3%A2ngela-semedo/" target="_blank" class="eli-social">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          <a href="https://github.com/ElisangelaSemedo" target="_blank" class="eli-social">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </div>
+      </div>
+      <div class="eli-corner"></div>
+    </div>
+
+    <button class="eli-btn-contact"></button>
+
+    <div class="eli-page-wrapper">
+      <section
+        class="eli-full-height eli-first-section eli-home-presentation"
+        id="eli-home-presentation"
+      >
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-sm-12 col-md-10 offset-md-1 col-lg-4 offset-lg-1 col-xl-3 offset-xl-2 eli-display-text"
+            >
+              <h1 class="eli-title eli-text-purple eli-title-xlarge">Hello!</h1>
+
+              <p class="eli-text-light">
+                My name is <span class="eli-text-purple">Elisângela</span>, I am
+                a <span class="eli-text-purple">Web Developer</span>. Autonomous
+                and enthusiastic, my passion for Code began while my last job as
+                a software tester.
+              </p>
+
+              <button
+                class="eli-btn eli-btn-large eli-btn-purple eli-mar-top-15 eli-toggle-modal"
+                href=""
+              >
+                Contact me
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="eli-scroll-down">
+          <div class="eli-arrow-down">
+            <img src="images/arrow-down.svg" alt="Scroll Down" />
+          </div>
+        </div>
+      </section>
+
+      <section class="eli-full-height" id="eli-home-portfolio">
+        <div class="container-fluid eli-no-padding">
+          <div class="row">
+            <div
+              class="col-sm-12 d-block d-sm-block d-lg-none eli-mar-top-30 eli-pad-top-30"
+            >
+              <h2
+                class="eli-title-large eli-text-purple eli-title eli-text-center"
+              >
+                Selected Projects
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-lg-2 order-2 order-sm-2 order-lg-1">
+              <div class="eli-portfolio-navigator">
+                <div class="eli-navigator-counter d-none d-sm-none d-lg-block">
+                  <span class="eli-text-purple">01</span>
+                </div>
+                <nav class="eli-item-navigator d-none d-sm-none d-lg-block">
+                  <a href="#" class="eli-item-active" data-nav="1"></a>
+                  <a href="#" data-nav="2"></a>
+                  <a href="#" data-nav="3"></a>
+                  <a href="#" data-nav="4"></a>
+                  <a href="#" data-nav="5"></a>
+                </nav>
+                <div class="eli-items-next-prev eli-no-radius-left">
+                  <div class="eli-item-prev">
+                    <ion-icon name="caret-back-circle-outline"></ion-icon>
+                  </div>
+
+                  <div class="eli-items-counter">
+                    <span class="eli-current-slide">01</span>
+                    /
+                    <span class="eli-total-slide">05</span>
+                  </div>
+
+                  <div class="eli-item-next">
+                    <ion-icon name="caret-forward-circle-outline"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-10 order-1 order-sm-1 order-lg-2">
+              <div class="eli-slider-container eli-full-height">
+                <ul class="eli-slider-list eli-full-height">
+                  <li
+                    class="eli-portfolio-item eli-slide-active"
+                    data-slide="1"
+                  >
+                    <div class="row">
+                      <div
+                        class="col-sm-12 col-md-12 col-lg-4 order-2 order-sm-2 order-md-1"
+                      >
+                        <div
+                          class="eli-portfolio-item-info eli-text-light eli-fade-from-left"
+                        >
+                          <h1
+                            class="eli-title eli-title-large eli-mar-bottom-30"
+                          >
+                            NEXT PROJECT
+                          </h1>
+                          <p class="eli-mar-bottom-30">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit.
+                          </p>
+                          <a
+                            href="#"class="eli-btn eli-btn-large eli-btn eli-btn-purple"
+                          >
+                            See Project
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="col-sm-12 col-md-12 col-lg-6 offset-lg-1 order-1 order-sm-1 order-sm-2"
+                      >
+                        <div class="eli-portfolio-item-thumb">
+                          <div
+                            class="eli-portfolio-item-box d-none d-sm-none d-lg-block eli-scale-right"
+                          ></div>
+                          <img
+                            src="Images/thumb-1.jpg"
+                            alt="eCommerce - Su"
+                            title="eCommerce"
+                            class="eli-scale-up"
+                          />
+                          <a href="#" class="eli-btn eli-btn-medium eli-btn-dark">
+                            Visit this Website
+                            <ion-icon name="arrow-redo-outline"></ion-icon>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="eli-portfolio-item" data-slide="2">
+                    <div class="row">
+                      <div
+                        class="col-sm-12 col-md-12 col-lg-4 order-2 order-sm-2 order-md-1"
+                      >
+                        <div class="eli-portfolio-item-info eli-text-light">
+                          <h1
+                            class="eli-title eli-title-large eli-mar-bottom-30"
+                          >
+                            NEXT PROJECT
+                          </h1>
+                          <p class="eli-mar-bottom-30">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit.
+                          </p>
+                          <a
+                            href="#"class="eli-btn eli-btn-large eli-btn eli-btn-purple"
+                          >
+                            See Project
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="col-sm-6 col-sm-12 col-md-12 col-lg-6 offset-lg-1 order-1 order-sm-1 order-sm-2"
+                      >
+                        <div class="eli-portfolio-item-thumb">
+                          <div
+                            class="eli-portfolio-item-box d-none d-sm-none d-lg-block"
+                          ></div>
+                          <img
+                            src="images/thumb-2.jpg"
+                            alt="PAICV LUX Official"
+                          />
+                          <a href="#" class="eli-btn eli-btn-medium eli-btn-dark">
+                            Visit this Website
+                            <ion-icon name="arrow-redo-outline"></ion-icon>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="eli-portfolio-item" data-slide="3">
+                    <div class="row">
+                      <div
+                        class="col-sm-12 col-md-12 col-lg-4 order-2 order-sm-2 order-md-1"
+                      >
+                        <div class="eli-portfolio-item-info eli-text-light">
+                          <h1
+                            class="eli-title eli-title-large eli-mar-bottom-30"
+                          >
+                            NEXT PROJECT
+                          </h1>
+                          <p class="eli-mar-bottom-30">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit.
+                          </p>
+                          <a
+                            href="#"class="eli-btn eli-btn-large eli-btn eli-btn-purple"
+                          >
+                            See Project
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="col-sm-6 col-sm-12 col-md-12 col-lg-6 offset-lg-1 order-1 order-sm-1 order-sm-2"
+                      >
+                        <div class="eli-portfolio-item-thumb">
+                          <div
+                            class="eli-portfolio-item-box d-none d-sm-none d-lg-block"
+                          ></div>
+                          <img
+                            src="images/thumb-3.jpg"
+                            alt="Nutriness Official"
+                          />
+                          <a href="#" class="eli-btn eli-btn-medium eli-btn-dark">
+                            Visit this Website
+                            <ion-icon name="arrow-redo-outline"></ion-icon>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="eli-portfolio-item" data-slide="4">
+                    <div class="row">
+                      <div
+                        class="col-sm-12 col-md-12 col-lg-4 order-2 order-sm-2 order-md-1"
+                      >
+                        <div class="eli-portfolio-item-info eli-text-light">
+                          <h1
+                            class="eli-title eli-title-large eli-mar-bottom-30"
+                          >
+                            NEXT PROJECT
+                          </h1>
+                          <p class="eli-mar-bottom-30">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit.
+                          </p>
+                          <a
+                            href="#"class="eli-btn eli-btn-large eli-btn eli-btn-purple"
+                          >
+                            See Project
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="col-sm-6 col-sm-12 col-md-12 col-lg-6 offset-lg-1 order-1 order-sm-1 order-sm-2"
+                      >
+                        <div class="eli-portfolio-item-thumb">
+                          <div
+                            class="eli-portfolio-item-box d-none d-sm-none d-lg-block"
+                          ></div>
+                          <img
+                            src="images/thumb-4.jpg"
+                            alt="PAICV LUX Official"
+                          />
+                          <a href="#" class="eli-btn eli-btn-medium eli-btn-dark">
+                            Visit this Website
+                            <ion-icon name="arrow-redo-outline"></ion-icon>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="eli-portfolio-item" data-slide="5">
+                    <div class="row">
+                      <div
+                        class="col-sm-12 col-md-12 col-lg-4 order-2 order-sm-2 order-md-1"
+                      >
+                        <div class="eli-portfolio-item-info eli-text-light">
+                          <h1
+                            class="eli-title eli-title-large eli-mar-bottom-30"
+                          >
+                            NEXT PROJECT
+                          </h1>
+                          <p class="eli-mar-bottom-30">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit.
+                          </p>
+                          <a
+                            href="#"class="eli-btn eli-btn-large eli-btn eli-btn-purple"
+                          >
+                            See Project
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="col-sm-6 col-sm-12 col-md-12 col-lg-6 offset-lg-1 order-1 order-sm-1 order-sm-2"
+                      >
+                        <div class="eli-portfolio-item-thumb">
+                          <div
+                            class="eli-portfolio-item-box d-none d-sm-none d-lg-block"
+                          ></div>
+                          <img
+                            src="images/thumb-5.jpg"
+                            alt="PAICV LUX Official"
+                          />
+                          <a href="#" class="eli-btn eli-btn-medium eli-btn-dark">
+                            Visit this Website
+                            <ion-icon name="arrow-redo-outline"></ion-icon>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/inview.min.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      // Animando Elementos on Scroll com Waypoints
+      var myScrollDown = document.querySelector(".eli-scroll-down");
+      var waypoint = new Waypoint({
+        element: myScrollDown,
+        handler: function () {
+          myScrollDown.classList.toggle("eli-fade-out");
+        },
+        offset: "80%",
+      });
+    </script>
+  </body>
+</html>
